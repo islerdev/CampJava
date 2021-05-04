@@ -10,6 +10,7 @@ public class Main {
 		customerManager.save(new Customer(1,"Engin","Demiroğ",new Date(1985,1,1), "11111111111"));		
 		
 		
+		
 	}	
 
 }

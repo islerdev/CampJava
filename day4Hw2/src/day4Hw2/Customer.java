@@ -57,7 +57,6 @@ public class Customer  {
 	public void setNationalityId(String nationalityId) {
 		this.nationalityId = nationalityId;
 	}
-
 	
 	
 }
