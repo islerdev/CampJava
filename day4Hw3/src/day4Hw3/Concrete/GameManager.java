@@ -1,0 +1,26 @@
+package day4Hw3.Concrete;
+
+import day4Hw3.Abstract.GameService;
+import day4Hw3.Entities.Game;
+
+public class GameManager implements GameService {
+
+	@Override
+	public void add(Game game) {
+		System.out.println("Oyun eklendi: " + game.getGameName());
+		
+	}
+
+	@Override
+	public void update(Game game) {
+		System.out.println("Oyun güncellendi: " + game.getGameName());
+		
+	}
+
+	@Override
+	public void delete(Game game) {
+		System.out.println("Oyun silindi: " + game.getGameName());
+		
+	}
+
+}
