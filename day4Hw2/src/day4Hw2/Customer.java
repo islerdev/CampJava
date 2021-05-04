@@ -2,7 +2,7 @@ package day4Hw2;
 
 import java.util.Date;
 
-public class Customer implements ICustomerService {
+public class Customer  {
 	private int id;
 	private String firstName;
 	private String lastName;
@@ -58,9 +58,6 @@ public class Customer implements ICustomerService {
 		this.nationalityId = nationalityId;
 	}
 
-	@Override
-	public void save(Customer customer) {
-		
-	}
+	
 	
 }
