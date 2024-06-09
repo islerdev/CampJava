@@ -25,12 +25,12 @@ public class Main {
 		Campaign campaign1 = new Campaign();
 		campaign1.setId(1);
 		campaign1.setCampaignId(1);
-		campaign1.setCampaignName("BÜYÜK YAZ FIRSATI");
+		campaign1.setCampaignName("BÃœYÃœK YAZ FIRSATI");
 		campaign1.setDiscountPercentage(50);
 		
 		
 
-		User user1 = new User(1,1, "Engin", "Demiroð", "engin", 1985, "12345678910", true);
+		User user1 = new User(1,1, "Salih", "Demir", "Salih", 1985, "12345678910", true);
 	
 		UserManager userManager = new UserManager(new MernisServiceAdapter());
 		userManager.add(user1);
