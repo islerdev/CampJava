@@ -8,7 +8,7 @@ public class MernisServiceAdapter implements UserCheckService {
 	@Override
 	public boolean checkIfRealPerson(User user) {
 		
-		if(user.getNationalityId()=="12345678910" && user.getFirstName() == "Engin") {
+		if(user.getNationalityId()=="12345678910" && user.getFirstName() == "Salih") {
 			
 			return true;
 			}
