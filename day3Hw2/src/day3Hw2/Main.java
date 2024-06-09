@@ -22,9 +22,9 @@ public class Main {
 		Instructor instructor1 = new Instructor();
 		instructor1.setId(1);
 		instructor1.setInstructorId(1);
-		instructor1.setUserName("engin");
-		instructor1.setFirstName("Engin");
-		instructor1.setLastName("Demiroð");
+		instructor1.setUserName("salih");
+		instructor1.setFirstName("Salih");
+		instructor1.setLastName("Demir");
 		instructor1.setActive(true);
 		instructor1.setCoursesOfInstructor(courses1);
 		
@@ -33,7 +33,7 @@ public class Main {
 		instructor2.setInstructorId(2);
 		instructor2.setUserName("kerem");
 		instructor2.setFirstName("Kerem");
-		instructor2.setLastName("Varýþ");
+		instructor2.setLastName("Var");
 		instructor2.setActive(true);
 		instructor2.setCoursesOfInstructor(courses2);
 		
